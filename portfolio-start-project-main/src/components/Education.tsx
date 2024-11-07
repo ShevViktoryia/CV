@@ -8,13 +8,13 @@ const Education = () => {
     <section>
       <Container>
         <SectionTitle>Education</SectionTitle>
-        <EducationList marker={"🎓"}>
+        <EducationList marker="'🎓'">
           <li>Francisk Skorina Gomel State University</li>
           <li>Udemy</li>
           <li>RSSchool</li>
           <li>
             Streamline Language School
-            <EducationList>
+            <EducationList width="100%">
               <li>English (B2 level)</li>
               <li>German (A1 level)</li>
             </EducationList>
